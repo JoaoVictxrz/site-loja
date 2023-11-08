@@ -10,7 +10,7 @@ export default function Navbar() {
         setIsOpen(!isOpen)
     }
     return (
-        <div>
+        <div className="">
             <nav className='w-full h-16 flex bg-sky-950'>
                 <div className='w-full h-full flex justify-between items-center md:flex'>
                     <div className='pl-5'>LOGO</div>

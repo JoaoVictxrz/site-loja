@@ -1,9 +1,6 @@
 "use client"
-import ListItem from '@/components/list/list'
-import { BiMenu } from "react-icons/bi";
-import { GoX } from "react-icons/go";
-import Image from 'next/image'
-import { useState } from 'react';
+import Carousel from '@/components/carousel/Carousel';
+import Footer from '@/components/footer/footer';
 import Navbar from '@/components/navbar/Navbar';
 
 export default function Home() {
@@ -12,14 +9,18 @@ export default function Home() {
       <header>
         <Navbar />
       </header>
+      <main className='w-full h-screen flex flex-col items-center justify-center'>
+        <div>
+          <Carousel />
+        </div>
+        <div className=' w-[95%] h-full mt-7'>
 
-      <main>
-
+        </div>
       </main>
 
       <footer>
-
       </footer>
     </div>
+
   )
 }
