@@ -1,4 +1,3 @@
-
 type listProps = {
     name: string,
     url: string
