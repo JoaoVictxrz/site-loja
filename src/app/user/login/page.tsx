@@ -1,4 +1,9 @@
-export default function login() {
+import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom"
+import User from "../page"
+import CadastroMobile from "./cadastro/page"
+
+export default function Login() {
+
     return (
         <div className="w-full h-screen flex items-center justify-center">
             <div className="hidden md:flex">

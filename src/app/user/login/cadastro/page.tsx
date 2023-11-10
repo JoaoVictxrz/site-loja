@@ -1,4 +1,4 @@
-export default function cadastroMobile() {
+export default function CadastroMobile() {
     return (
         <div>
             <div className=" w-[300px ]h-auto border-[2px] border-l-zinc-600/30 m-8">
