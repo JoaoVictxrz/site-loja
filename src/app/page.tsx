@@ -42,19 +42,19 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="flex overflow-x-auto space-x-8 w-full h-[46rem] gap-64 scroll-smooth">
+            <div className="flex overflow-x-auto space-x-8 w-full h-[46rem] gap-32 scroll-smooth">
               <div className="flex justify-between text-black">
               </div>
               <div className="flex-shrink-0 h-[44rem]" id="1">
                 <div className="flex flex-col items-center">
                   <Image
-                    src='/produtos/pngwing.com (2).png'
+                    src='/produtos/polo1.png'
                     width={400}
                     height={400}
                     alt='CAMISA1'
                     className='drop-shadow-2xl'
                   />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Preta</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
                   <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
                 </div>
@@ -62,13 +62,13 @@ export default function Home() {
               <div className="flex-shrink-0 h-[44rem]" >
                 <div className="flex flex-col items-center">
                   <Image
-                    src='/produtos/pngwing.com (2).png'
+                    src='/produtos/polo2.png'
                     width={400}
                     height={400}
                     alt='CAMISA1'
                     className='drop-shadow-2xl'
                   />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Verde</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
                   <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
                 </div>
@@ -76,13 +76,13 @@ export default function Home() {
               <div className="flex-shrink-0 h-[44rem]">
                 <div className="flex flex-col items-center">
                   <Image
-                    src='/produtos/pngwing.com (2).png'
+                    src='/produtos/polo3.png'
                     width={400}
                     height={400}
                     alt='CAMISA1'
                     className='drop-shadow-2xl'
                   />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Vermelha</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
                   <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
                 </div>
@@ -90,27 +90,27 @@ export default function Home() {
               <div className="flex-shrink-0 h-[44rem]">
                 <div className="flex flex-col items-center">
                   <Image
-                    src='/produtos/pngwing.com (2).png'
+                    src='/produtos/polo4.png'
                     width={400}
                     height={400}
                     alt='CAMISA1'
                     className='drop-shadow-2xl'
                   />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Azul</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
                   <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
                 </div>
               </div>
-              <div className="flex-shrink-0 h-[44rem]" id="2">
-                <div className="flex flex-col items-center">
+              <div className="flex-shrink-0 h-[44rem]">
+                <div className="flex flex-col items-center" id="2">
                   <Image
-                    src='/produtos/pngwing.com (2).png'
+                    src='/produtos/polo5.png'
                     width={400}
                     height={400}
                     alt='CAMISA1'
                     className='drop-shadow-2xl'
                   />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Verde</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
                   <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
                 </div>
@@ -118,13 +118,13 @@ export default function Home() {
               <div className="flex-shrink-0 h-[44rem]">
                 <div className="flex flex-col items-center">
                   <Image
-                    src='/produtos/pngwing.com (2).png'
+                    src='/produtos/polo6.png'
                     width={400}
                     height={400}
                     alt='CAMISA1'
                     className='drop-shadow-2xl'
                   />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Limão</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
                   <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
                 </div>
@@ -132,27 +132,13 @@ export default function Home() {
               <div className="flex-shrink-0 h-[44rem]">
                 <div className="flex flex-col items-center">
                   <Image
-                    src='/produtos/pngwing.com (2).png'
+                    src='/produtos/polo7.png'
                     width={400}
                     height={400}
                     alt='CAMISA1'
                     className='drop-shadow-2xl'
                   />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
-                  <span className="text-black text-center font-bold text-4xl">R$119,99</span>
-                  <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
-                </div>
-              </div>
-              <div className="flex-shrink-0 h-[44rem]" id="3">
-                <div className="flex flex-col items-center">
-                  <Image
-                    src='/produtos/pngwing.com (2).png'
-                    width={400}
-                    height={400}
-                    alt='CAMISA1'
-                    className='drop-shadow-2xl'
-                  />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Cinza</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
                   <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
                 </div>
@@ -160,13 +146,27 @@ export default function Home() {
               <div className="flex-shrink-0 h-[44rem]">
                 <div className="flex flex-col items-center">
                   <Image
-                    src='/produtos/pngwing.com (2).png'
+                    src='/produtos/polo8.png'
                     width={400}
                     height={400}
                     alt='CAMISA1'
                     className='drop-shadow-2xl'
                   />
-                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo</span>
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Preta</span>
+                  <span className="text-black text-center font-bold text-4xl">R$119,99</span>
+                  <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
+                </div>
+              </div>
+              <div className="flex-shrink-0 h-[44rem]">
+                <div className="flex flex-col items-center" id="3">
+                  <Image
+                    src='/produtos/mangalonga.png'
+                    width={400}
+                    height={400}
+                    alt='CAMISA1'
+                    className='drop-shadow-2xl'
+                  />
+                  <span className="text-black text-center font-semibold text-2xl">Camisa Polo Manga Longa</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
                   <button className='bg-blue-400 w-64 h-16 rounded-2xl mt-3 font-semibold text-2xl flex items-center justify-center hover:bg-blue-700'>Comprar</button>
                 </div>
