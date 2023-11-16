@@ -3,6 +3,7 @@ import { FaAngleLeft, FaAngleRight, FaAngleUp } from "react-icons/fa6";
 import User from './user/page';
 import CadastroMobile from './user/login/cadastro/page';
 import Image from 'next/image';
+import Timer from "@/components/timer/timer";
 
 export default function Home() {
   return (
@@ -41,7 +42,7 @@ export default function Home() {
               <span className='text-zinc-600 font-bold text-5xl px-1 hover:text-black'><a href="#3">.</a></span>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-12">
             <div className="flex overflow-x-auto space-x-8 w-full h-[46rem] gap-32 scroll-smooth">
               <div className="flex justify-between text-black">
               </div>
@@ -49,10 +50,10 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <Image
                     src='/produtos/polo1.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Preta</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -63,10 +64,10 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <Image
                     src='/produtos/polo2.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Verde</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -77,10 +78,10 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <Image
                     src='/produtos/polo3.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Vermelha</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -91,10 +92,10 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <Image
                     src='/produtos/polo4.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Azul</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -105,10 +106,10 @@ export default function Home() {
                 <div className="flex flex-col items-center" id="2">
                   <Image
                     src='/produtos/polo5.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Verde</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -119,10 +120,10 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <Image
                     src='/produtos/polo6.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Limão</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -133,10 +134,10 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <Image
                     src='/produtos/polo7.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Cinza</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -147,10 +148,10 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <Image
                     src='/produtos/polo8.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Preta</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -161,10 +162,10 @@ export default function Home() {
                 <div className="flex flex-col items-center" id="3">
                   <Image
                     src='/produtos/mangalonga.png'
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     alt='CAMISA1'
-                    className='drop-shadow-2xl'
+                    className='w-[400px] h-[400px]'
                   />
                   <span className="text-black text-center font-semibold text-2xl">Camisa Polo Manga Longa</span>
                   <span className="text-black text-center font-bold text-4xl">R$119,99</span>
@@ -174,10 +175,24 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="flex justify-between w-full h-[1440px]">
+          <div>
+            <Image
+              src='/Camisa-polo-masculina.png'
+              width={1440}
+              height={14400}
+              alt='CAMISA1'
+            />
+          </div>
+          <div className="w-full bg-black flex flex-col pl-[10%] justify-center">
+            <h1 className="font-bold text-6xl text-red-600">Promoção</h1> <br />
+            <h2 className="font-semibold text-xl">Camisas Polos Masculina em até <br /><span className="font-bold text-7xl text-red-600
+            ">20%</span> de desconto!</h2><br />
+            <span className="text-xl">Ofertas valida até:</span>
+            <Timer />
+          </div>
+        </div>
       </main >
-
-      <footer>
-      </footer>
 
     </div >
 
