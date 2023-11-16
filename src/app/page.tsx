@@ -1,5 +1,5 @@
 "use client"
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { FaAngleUp } from "react-icons/fa6";
 import User from './user/page';
 import CadastroMobile from './user/login/cadastro/page';
 import Image from 'next/image';
@@ -8,6 +8,11 @@ export default function Home() {
   return (
     <div >
       <main className='w-full h-[1920px] items-center flex flex-col'>
+        <div>
+          <div className="text-white fixed bottom-12 right-12 bg-sky-950 w-14 h-14 rounded-full flex items-center justify-center">
+            <a href="#"><FaAngleUp /></a>
+          </div>
+        </div>
         <div className='h-[1440px] flex items-center justify-center'>
           <div className='flex flex-col mr-[30%]'>
             <span className='text-[60px] font-bold'>Mais que uma Loja,<br /> um estilo de vida</span> <br />
