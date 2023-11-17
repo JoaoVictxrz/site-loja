@@ -40,7 +40,7 @@ export default function Navbar() {
                             <ul className='flex flex-col gap-5 items-center justify-center'>
                                 <ListItem name='HOME' url='#' />
                                 <ListItem name='PRODUTOS' url='' />
-                                <ListItem name='CONTATOS' url='' />
+                                <ListItem name='CONTATOS' url='#contatos' />
                                 <ListItem name='SOBRE' url='' />
                             </ul>
                         </div>
