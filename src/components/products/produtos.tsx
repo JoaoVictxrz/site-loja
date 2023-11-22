@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Produtos() {
     return (
-        <div className='w-full bg-white flex flex-col pt-8 pb-4'>
+        <div className="w-[100%] bg-white flex flex-col">
             <div className='ml-24 flex justify-between' id='destaques'>
                 <span className='font-bold text-5xl text-black'>Destaques</span>
                 <div className='pr-[40px] '>

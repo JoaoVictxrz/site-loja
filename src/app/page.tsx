@@ -33,8 +33,12 @@ export default function Home() {
             />
           </div>
         </div>
-        <Produtos />
-        <Promo />
+        <div className="w-[100%] h-auto">
+          <Produtos />
+        </div>
+        <div>
+          <Promo />
+        </div>
       </main >
       <footer className="w-full h-auto">
         <Footer />
